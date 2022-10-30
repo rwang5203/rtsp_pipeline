@@ -57,8 +57,6 @@ public:
 private:
     static const int MAX_SIZE = 2048*1000;
     unsigned char buf[MAX_SIZE];
-    // vector<unsigned char> buf(MAX_SIZE);
-
 
     unsigned char * recv_data;
     unsigned char recv_buf[2048];
